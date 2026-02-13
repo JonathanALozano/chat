@@ -1,0 +1,14 @@
+* { box-sizing: border-box; font-family: system-ui, Arial; }
+body { margin: 0; background:#0b1220; color:#e7eaf0; }
+.wrap { max-width: 800px; margin: 40px auto; padding: 0 16px; }
+.panel { background:#121a2b; border:1px solid #26314b; padding:16px; border-radius:12px; }
+.row { display:flex; gap:8px; margin: 10px 0; }
+input, button { padding:10px 12px; border-radius:10px; border:1px solid #2a3550; background:#0e1626; color:#e7eaf0; }
+input { flex:1; }
+button { cursor:pointer; }
+.messages { height: 360px; overflow:auto; padding:10px; background:#0e1626; border-radius:10px; border:1px solid #2a3550; }
+.msg { padding:6px 8px; border-bottom:1px solid #1f2a44; }
+.msg.system { color:#a8b3cf; font-style: italic; }
+.time { color:#7f8db3; margin-right:6px; }
+.status { font-size: 14px; color:#ffb3b3; }
+.status.ok { color:#9cffc1; }
